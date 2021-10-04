@@ -7,13 +7,6 @@
   "homepage": "./",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^27.0.2",
-    "@types/node": "^16.10.1",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
     "concurrently": "^6.2.2",
     "cross-env": "^7.0.3",
     "electron-is-dev": "^2.0.0",
@@ -27,7 +20,14 @@
   },
   "devDependencies": {
     "electron-builder": "^22.11.7",
-    "electron": "^15.0.0"
+    "electron": "^15.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.1",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
